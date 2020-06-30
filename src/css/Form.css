@@ -1,0 +1,214 @@
+p{
+	margin:0;
+	padding:5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img{
+	width: 170px;
+    height: 170px;
+}
+input[type=search]{
+	-webkit-appearance: none;
+}
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.customers tbody{
+	display: block;
+  max-height: 420px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.customers thead{
+	display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.customers tbody tr{
+	display: table;
+  width: 102.65%;
+  table-layout: fixed;
+}
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(odd){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: black;
+}
+
+.India_Stats{
+	float:left;
+	width:50%
+}
+.Global_stats{
+	float:right;
+	margin-right:65px;
+}
+.globalStatHead, .indiaStatHead{
+	text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.indiaStatHead{
+	padding-bottom:27px;
+}
+.deathcases, .totalcases, .recoveredcases{
+	display:inline-block;
+	background-color: #eee;
+    margin: 25px;
+    padding: 30px;
+}
+.searchboxDiv{
+	float:right;
+}
+.sortingdiv{
+	display:inline-block;
+}
+.homebackgrnd{
+	background-color: #fdfdfd;
+    height: 635px;
+}
+.hometext{
+	    border-bottom: 2px solid #ccc;
+    font-family: Helvetica;
+    font-size: 37px;
+    /* background-color: #eff4f8; */
+    padding: 15px;
+    padding-left: 39%;
+    /* text-decoration-line: underline;*/
+}
+.btnHome{
+	padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 25px 10px;
+    cursor: pointer;
+    color: #1a53ff;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+
+.employeeDetails{
+	margin-left:20px;
+}
+.employeeDetailsHead{
+	margin-top:10px;
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 17px;
+	font-weight: bold;
+	cursor:pointer;
+}
+.employeeDetailsHead:hover{
+	background-color:#eff4f8;
+}
+.employeeDetailsBody{
+	padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+	color:#000;
+	background-color: #fff;
+}
+.employeeDetailsBody:hover {
+	background-color:#f5f5f5;
+	}
+
+.employeedetailssub{
+	margin: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.flipResume{
+	float: right;
+    font-size: 13px;
+	color: #1a53ff;
+}
+.Edetails{
+	margin: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 35%;
+	padding-bottom: 15px;
+}
+.edEachH{
+	color: #777;
+    font-size: 15px;
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    padding-right: 5px;
+}
+.edEachA{
+	font-size:15px;
+	display: inline-block;
+}
+.navBarul{
+  overflow: hidden;
+  overflow: hidden;
+  border-bottom: 2px solid #eff4f8;
+}
+.navBarli{
+	float:left;
+}
+.navBarli a {
+  display: block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navBarli a:hover {
+  color: #1a53ff;
+  border-bottom: 1px solid #1a53ff;
+}
+.pad25{
+	padding-left:25px;
+}
+.resumedetails{
+	background-color:#fff;
+	padding: 20px;
+	border-bottom: 2px solid #eff4f8;
+}
+.active{
+	border-bottom: 1px solid #1a53ff;
+}
+
+.SearchBox{
+    /*margin: 10px; */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.ascImg{
+width:10px;
+height:10px;
+}
+.empIconDiv{
+	display: inline-block;
+    float: left;
+    padding-left: 20%;
+}
