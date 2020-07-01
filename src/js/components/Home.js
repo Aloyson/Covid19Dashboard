@@ -148,7 +148,7 @@ class Home extends Component {
   })
 		return ( 
 <div className="homebackgrnd">
-	<div className="hometext">Covid-19 Dashboard</div>
+	<div className="hometext">Covid-19 Dashboard1</div>
 	<div className="India_Stats">
 	<div className="indiaStatHead">India Stats</div>
 	<div className="searchboxDiv"><input type="search" className="SearchBox" id="filter" value={this.state.searchVal} onChange={this.onChangeSearch} placeholder="Search State" /></div>
